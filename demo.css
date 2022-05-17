@@ -1,0 +1,64 @@
+ <html>
+    <head>
+        <title>demo</title>
+        <style type="text/css">
+            div{
+                height: 200px;width: 200px;background-color: rgb(4, 59, 94);font-size: 25px;
+                font-weight: bold;color: rgb(133, 123, 123);transition: 3s;
+            }
+            #translate:hover{
+                -webkit-transform: translate(600px,600px);
+                -moz-transform: translate(600px,600px);
+                -ms-transform: translate(600px,600px);
+                -o-transform: translate(600px,600px);
+                transform: translate(600px,600px);
+                background-color: darkseagreen;
+                 color: darkslategrey;
+            }
+            #rotate:hover{
+                -webkit-transform: rotate(360deg,360deg);
+                -moz-transform: rotate(360deg,360deg);
+                -ms-transform: rotate(360deg,360deg);
+                -o-transform: rotate(360deg,360deg);
+                transform: rotate(360deg);
+                background-color: palevioletred;
+                 color: darkslategrey;   
+            }
+            #rotate3d:hover{
+                -webkit-transform: rotate3d(600px,600px);
+                -moz-transform: rotate3d(600px,600px);
+                -ms-transform: rotate3d(600px,600px);
+                -o-transform: rotate3d(600px,600px);
+                transform: rotate3d(600px,600px);
+                background-color:purple;
+                 color: rgb(147, 209, 209);
+            }
+            #scale:hover{
+                -webkit-transform: scale(600px,600px);
+                -moz-transform: scale(600px,600px);
+                -ms-transform: scale(600px,600px);
+                -o-transform: scale(600px,600px);
+                transform: scale(600px,600px);
+                background-color:rgb(208, 162, 208);
+                 color: rgb(110, 212, 59);
+            }
+            #opacity:hover{
+                -webkit-transform: opacity(600px,600px);
+                -moz-transform: opacity(600px,600px);
+                -ms-transform: opacity(600px,600px);
+                -o-transform: opacity(600px,600px);
+                transform: opacity(600px,600px);
+                background-color:rgb(99, 106, 205);
+                 color: rgb(185, 191, 73);
+            }
+ 
+        </style>
+    </head>
+    <body>
+        <div id="translate">translate</div><hr/>
+        <div id="rotate">rotate</div><hr/>
+        <div id="rotate3d">rotate3d</div><hr/>
+        <div id="scale">scale</div><hr/>
+        <div id="opacity">opacity</div><hr/>
+    </body>
+</html>
